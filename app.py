@@ -58,7 +58,7 @@ def main():
     
     # Standardwerte für Start- und Endzeit
     default_start = datetime.now().replace(hour=7, minute=30, second=0, microsecond=0)
-    default_end = datetime.now()
+    default_end = datetime.now() + timedelta(hours=1)
     
     # Eingabefelder für Start- und Endzeit als Text
     col1, col2 = st.columns(2)
