@@ -52,6 +52,7 @@ def calculate_work_time(start_time, end_time, pause_duration=45):
     net_work_time = total_time - pause
     return net_work_time
 
+#Main
 def main():
     st.title("Arbeitszeit Tracker")
     
